@@ -80,7 +80,7 @@ SCENARIO("Parentheses", "[Parentheses]") {
             }
         }
     }
-
+    
     GIVEN("Parentheses, false implicate bracket") {
     std::vector <std::string> input{"({]}", "((>]","(<[})>"};
     Parentheses p;
